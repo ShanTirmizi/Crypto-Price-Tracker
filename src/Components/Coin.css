@@ -9,8 +9,9 @@
     justify-items: start;
     align-items: center;
     height: 80px;
-    border-bottom: 1px solid #d7d7d7;
+    border-bottom: 2px solid var(--color-1);
     width: 900px;
+    
 }
 
 .coin {
@@ -44,24 +45,32 @@
 
 .coin-price {
     width: 110px;
+    padding: 10px;
+
 }
 
 .coin-volume {
     width: 200px;
+    padding: 10px;
+
 }
 
 .coin-marketcap {
     width: 240px;
+    padding: 10px;
+    border-radius: 50px;
 }
 
 .coin-percent {
-    width: 80px;
+    flex-grow: inherit;
+    padding: 10px;
+    border-radius: 50px;
 }
 
 .red {
-    color: #f00606;
+    background-color: #EF233C;
 }
 
 .green {
-    color: #11d811;
+    background-color: #72B01D;
 }
