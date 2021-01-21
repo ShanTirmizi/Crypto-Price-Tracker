@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+
 }
 
 body {
@@ -10,8 +11,15 @@ body {
 }
  
 :root {
-  --color-1: #162447;
-  --color-2: #1B1B2F;
+  --color-1: #fff132; 
+  --color-2: #404AFF;
   --color-3: #EF233C;
   --color-4: #72B01D;
 }
+
+  /* --color-1: #162447;
+  --color-2: #1B1B2F;
+  --color-3: #EF233C;
+  --color-4: #72B01D; */
+
+  /* #fec840; */
