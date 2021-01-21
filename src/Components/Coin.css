@@ -68,9 +68,9 @@
 }
 
 .red {
-    background-color: #EF233C;
+    background-color: var(--color-3);
 }
 
 .green {
-    background-color: #72B01D;
+    background-color: var(--color-4);
 }

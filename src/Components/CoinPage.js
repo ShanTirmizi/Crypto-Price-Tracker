@@ -18,14 +18,14 @@ const CoinPage = ({ filteredCoins, handleChange }) => {
                     <img className='coinPage-img' src={Crypto.image} />
                 </Link>
 
-                <form className='coinPage-form'>
+                {/* <form className='coinPage-form'>
                     <input 
                     type='text'
                     onChange={handleChange}
                     placeholder='Search'
                     className='coinPage-input'
                     />
-                </form>
+                </form> */}
             </div>
 
             <div className='coinPage-cointainer'>
