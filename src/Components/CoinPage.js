@@ -68,8 +68,9 @@ const CoinPage = ({ filteredCoins, handleChange }) => {
                             <p className='coinPage-value red'>£{Crypto.low_24h.toLocaleString()}</p>
                         </div>
                         <div className='coinPage-sectionp'>
-                            <p className={`${Crypto.price_change_24h < 0 ? 'coinPage-name red' : 'coinPage-name green' }`}>Marketcap</p>
-                            <p className={`${Crypto.price_change_24h < 0 ? 'coinPage-value red' : 'coinPage-value green' }`}>£{Crypto.market_cap.toLocaleString()}</p>
+                            <p className={`${Crypto.price_change_24h < 0 ? 'coinPage-name red' : 'coinPage-name green' }`}>Marketcap</p>                        
+
+                            <p className={`${Crypto.price_change_24h < 0 ? 'coinPage-value red' : 'coinPage-value green' }`}>£{Crypto.total_volume.toLocaleString()}</p>
                         </div>
                         <div className='coinPage-sectionp'>
                             <p className={`${Crypto.price_change_percentage_24h < 0 ? 'coinPage-name red' : 'coinPage-name green' }`}>Marketcap 24hr Change</p>

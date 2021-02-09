@@ -3,7 +3,7 @@ import './Coin.css';
  
 
 const Coin = ({ name, image, symbol, volume, price, priceChange , marketcap }) => {
-    console.log(typeof(priceChange))
+    // console.log(typeof(priceChange))
     return (
         <div className='coin-container'>
             <div className='coin-row'>
