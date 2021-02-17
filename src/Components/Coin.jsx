@@ -2,7 +2,7 @@ import React from 'react';
 import './Coin.css';
  
 
-const Coin = ({ name, image, symbol, volume, price, priceChange , marketcap }) => {
+const Coin = ({ name, image, symbol, volume, price, priceChange , market_cap }) => {
     // console.log(typeof(priceChange))
     return (
         <div className='coin-container'>
@@ -13,8 +13,8 @@ const Coin = ({ name, image, symbol, volume, price, priceChange , marketcap }) =
                     <p className='coin-symbol'>{symbol}</p>
                 </div>
                 <div className='coin-data'>
-                    <p className='coin-price'>£{price}</p>
-                    <p className='coin-volume'>{volume.toLocaleString()}</p>
+                    <p className='coin-price'>£{price ? price.toLocaleString() : 'error'}</p>
+                    <p className='coin-volume'>{volume.toLocaleString() || 'error'}</p>
 
                     {
                         priceChange < 0 ? (
@@ -24,7 +24,7 @@ const Coin = ({ name, image, symbol, volume, price, priceChange , marketcap }) =
                     )}
 
                     <p className='coin-marketcap'>
-                        Mkt Cap: £{marketcap.toLocaleString()}
+                        Mkt Cap: £{market_cap ? market_cap.toLocaleString() : 'error'}
                     </p>
 
                 </div>

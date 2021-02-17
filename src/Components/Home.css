@@ -25,6 +25,8 @@
     padding-top: 10px;
   }
 
+
+
   .coin-form > input {
     border: none;
   }
@@ -41,6 +43,10 @@
     border: none;
     background-color: var(--color-2);
     color: white;
+  }
+
+  .coin-input:focus {
+    outline: none;
   }
 
   
