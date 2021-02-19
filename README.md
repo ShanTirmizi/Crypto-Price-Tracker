@@ -1,1 +1,1 @@
-Live Site: https://shan-covid-tracker.netlify.app/
+Live Site: https://shan-crypto-tracker.netlify.app/
